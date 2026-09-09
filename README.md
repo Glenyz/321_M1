@@ -1,4 +1,4 @@
-# CPEN321_26W1_ProjectName
+# CPEN321_26W1_SurpriseApp
 
 ## Frontend Setup 
 
