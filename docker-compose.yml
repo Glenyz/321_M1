@@ -16,6 +16,9 @@ services:
     depends_on:
       mongo:
         condition: service_healthy
+    volumes:
+      - ./backend/server.crt:/certs/server.crt:ro
+      - ./backend/server.key:/certs/server.key:ro
 
   mongo:
     image: mongo:7

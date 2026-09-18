@@ -387,7 +387,7 @@ fun TimerScreen() {
         }
 
         if (showSurprise) {
-            Text("Stock Lookup (e.g. APPL, MSFT, etc.)", style = MaterialTheme.typography.titleMedium)
+            Text("Stock Lookup (e.g. APPL, MSFT, etc.cs)", style = MaterialTheme.typography.titleMedium)
 
             Row(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
