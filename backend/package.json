@@ -19,9 +19,11 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
+    "@types/ws":"^8.5.10",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.20.0",
